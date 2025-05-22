@@ -31,9 +31,9 @@ card-flag-detector/
 - tests/ # Testes automatizados
   - test_main.py # Casos de teste com unittest
 - data/ # Resultados de execução
-  -test_results.txt # Arquivo de saída com resultados dos testes
+  - test_results.txt # Arquivo de saída com resultados dos testes
 - docs/ # Documentações adicionais
-  -notas_importantes.md# Observações e anotações relevantes
+  - notas_importantes.md# Observações e anotações relevantes
 - README.md # Documentação principal do projeto
 
 ---
