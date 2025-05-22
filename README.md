@@ -3,11 +3,12 @@
 Este projeto tem como objetivo desenvolver uma aplicação simples em Python capaz de identificar a bandeira de um cartão de crédito com base em seu número.
 
 ## 🚀 Tecnologias
-- Python 3.10+
+- Python 3.13.3
+- VS Studio Code
 - GitHub Copilot (como assistente de codificação)
-
+  
 ## 🎯 Funcionalidades
-- Entrada: número do cartão (string)
+- Entrada: número do cartão
 - Saída: bandeira correspondente (Visa, MasterCard, etc.)
 - Validação básica de entrada
 - Testes simples
@@ -33,8 +34,3 @@ Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
 
 ---
 
-### ✅ Exemplos
-
-```python
-identificar_bandeira("4111 1111 1111 1111")  # Visa
-identificar_bandeira("5500 0000 0000 0004")  # MasterCard
