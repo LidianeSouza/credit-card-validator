@@ -33,13 +33,18 @@ def get_card_brand(card_number: str) -> str:
     return 'Desconhecida'
 
 if __name__ == "__main__":
-    print(get_card_brand("5120 9773 9076 0075"))  # MasterCard
-    print(get_card_brand("4532 8407 7823 2445"))  # Discover    
-    print(get_card_brand("3425 503587 54886"))  # Visa          
-    print(get_card_brand("3006 779398 6202"))  # Discover
-    print(get_card_brand("6011 9047 4079 6930"))  # Discover
-    print(get_card_brand("2014 1336798 4939"))  # Discover
-    print(get_card_brand("3537 3592 4052 1944"))  # Discover
-    print(get_card_brand("86992 3288 25361 3"))  # Discover
-    print(get_card_brand("6062 8252 2044 6027"))  # Discover  
-    print(get_card_brand("5079 9286 9123 1226"))  # Discover  
+    results = []
+    results.append(get_card_brand("5120 9773 9076 0075"))  # MasterCard
+    results.append(get_card_brand("4532 8407 7823 2445"))  # Discover    
+    results.append(get_card_brand("3425 503587 54886"))    # Visa          
+    results.append(get_card_brand("3006 779398 6202"))     # Discover
+    results.append(get_card_brand("6011 9047 4079 6930"))  # Discover
+    results.append(get_card_brand("2014 1336798 4939"))    # Discover
+    results.append(get_card_brand("3537 3592 4052 1944"))  # Discover
+    results.append(get_card_brand("86992 3288 25361 3"))   # Discover
+    results.append(get_card_brand("6062 8252 2044 6027"))  # Discover  
+    results.append(get_card_brand("5079 9286 9123 1226"))  # Discover
+
+    with open("src/test_results.txt", "w", encoding="utf-8") as f:
+        for result in results:
+            f.write(result + "\n")
