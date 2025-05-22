@@ -23,13 +23,25 @@ Além disso, exploramos como o **GitHub Copilot**, como assistente de codificaç
 - Registro de resultados em arquivo (`test_results.txt`)
 - Testes simples de verificação
 
+## 📁 Estrutura do Projeto
+
+card-flag-detector/
+- src/ # Código-fonte da aplicação
+  - main.py # Função principal que identifica a bandeira
+- tests/ # Testes automatizados
+  - test_main.py # Casos de teste com unittest
+- data/ # Resultados de execução
+  -test_results.txt # Arquivo de saída com resultados dos testes
+- docs/ # Documentações adicionais
+  -notas_importantes.md# Observações e anotações relevantes
+- README.md # Documentação principal do projeto
+
 ---
 
 ## 🤖 Uso do GitHub Copilot
 
 Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
-
-- Sugerir condições `if` com base nos prefixos (BIN/IIN)
+- Sugerir condições `if` com base nos prefixos
 - Gerar funções auxiliares para análise de prefixos e dígitos
 - Criar estrutura inicial de testes
 - Criar código para exportar os resultados para arquivo
@@ -37,12 +49,3 @@ Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
 > ⚠️ **Importante:** Nem todo código gerado pela IA está correto. Por exemplo, o Copilot sugeriu que a bandeira **Voyager** usava 16 dígitos, mas a base correta indica **15 dígitos**, o que levou a falha na identificação. Sempre revise o código gerado!
 
 ---
-
-## ✅ Exemplos de Uso
-
-```python
-identificar_bandeira("4111 1111 1111 1111")  # Visa
-identificar_bandeira("5500 0000 0000 0004")  # MasterCard
-identificar_bandeira("3714 4963 5398 431")   # American Express
-
-
