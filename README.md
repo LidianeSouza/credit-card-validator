@@ -46,6 +46,4 @@ Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
 - Criar estrutura inicial de testes
 - Criar código para exportar os resultados para arquivo
 
-> ⚠️ **Importante:** Nem todo código gerado pela IA está correto. Por exemplo, o Copilot sugeriu que a bandeira **Voyager** usava 16 dígitos, mas a base correta indica **15 dígitos**, o que levou a falha na identificação. Sempre revise o código gerado!
-
 ---
