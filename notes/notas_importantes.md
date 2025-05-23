@@ -12,5 +12,5 @@
 
 ## 🧪 Testes
 
-- Os resultados dos testes foram exportados para o arquivo results/test_results.txt, para facilitar a análise e garantir rastreabilidade.
+- Os resultados dos testes foram exportados para o arquivo [results/test_results.txt](https://github.com/LidianeSouza/card-flag-detector/blob/main/results/test_results.txt), para facilitar a análise e garantir rastreabilidade.
 Assim, é possível acompanhar facilmente o que foi testado e verificar se tudo está funcionando corretamente.
