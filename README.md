@@ -1,8 +1,19 @@
-# 🔐 Identificador de Bandeiras de Cartões de Crédito
+# 🔐 Identificador de Bandeiras de Cartões de Crédito 💳
 
-Este projeto tem como objetivo desenvolver uma aplicação simples em **Python** capaz de identificar a bandeira de um cartão de crédito com base em seu número.
+Olá! 👋
+Seja bem-vindo(a) ao meu projeto de detecção de bandeiras de cartões de crédito! 
 
-Além disso, exploramos como o **GitHub Copilot**, como assistente de codificação, pode acelerar o desenvolvimento, sugerir trechos de código e melhorar a produtividade.
+Esse é um projeto simples, com o objetivo de desenvolver uma aplicação em **Python** capaz de identificar a bandeira de um cartão de crédito com base em seu número.
+
+Além disso, o uso do **GitHub Copilot**, como assistente de codificação, pode acelerar o desenvolvimento, sugerir trechos de código e melhorar a produtividade.
+
+---
+
+## 🧠 O que você vai encontrar aqui
+
+- Um script que identifica a bandeira de um cartão a partir dos primeiros dígitos do número
+- Um conjunto de testes para garantir que tudo esteja funcionando corretamente
+- Um código simples, limpo e fácil de entender
 
 ---
 
