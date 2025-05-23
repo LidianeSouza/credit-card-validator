@@ -33,7 +33,7 @@ Além disso, explorei o uso do **GitHub Copilot** como assistente de codificaç�
 - **Entrada flexível**: aceita números de cartão como string, com ou sem espaços
 - **Identificação automática da bandeira**: Visa, MasterCard e outras, com base nos prefixos
 - **Validação básica**: verifica se o número inserido segue um padrão válido
-- **Função reutilizável**: `identificar_bandeira` pode ser aplicada em outros projetos
+- **Função reutilizável**: `get_card_brand` pode ser aplicada em outros projetos
 - **Testes automatizados**: garantem o correto funcionamento da lógica
 - **Exportação de resultados**: os resultados dos testes são registrados em `results/test_results.txt` para rastreabilidade
 - **Organização clara**: código, testes, resultados e documentação separados em pastas específicas
