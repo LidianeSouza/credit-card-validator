@@ -55,14 +55,15 @@ Essa experiência mostrou como a IA pode ser uma excelente aliada no aprendizado
 ## 📁 Estrutura do Projeto
 
 card-flag-detector/
+- notes/ # Documentações adicionais
+  - base.png
+  - notas_importantes.md# Observações e anotações relevantes
+- results/ # Resultados de execução
+  - test_results.txt # Arquivo de saída com resultados dos testes
 - src/ # Código-fonte da aplicação
   - main.py # Função principal que identifica a bandeira
 - tests/ # Testes automatizados
-  - test_main.py # Casos de teste com unittest
-- data/ # Resultados de execução
-  - test_results.txt # Arquivo de saída com resultados dos testes
-- docs/ # Documentações adicionais
-  - notas_importantes.md# Observações e anotações relevantes
+  - test_main.py # Casos de teste
 - README.md # Documentação principal do projeto
 
 ---
