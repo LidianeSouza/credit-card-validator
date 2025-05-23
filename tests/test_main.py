@@ -45,6 +45,4 @@ if __name__ == "__main__":
     results.append(get_card_brand("6062 8252 2044 6027"))  # Discover  
     results.append(get_card_brand("5079 9286 9123 1226"))  # Discover
 
-    with open("data/test_results.txt", "w", encoding="utf-8") as f:
-        for result in results:
-            f.write(result + "\n")
+    

@@ -1,0 +1,10 @@
+MasterCard
+Visa
+American Express
+Diners Club
+Discover
+enRoute
+JCB
+Voyager
+Hipercard
+Aura
