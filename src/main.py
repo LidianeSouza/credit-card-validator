@@ -1,26 +1,34 @@
-def validar_bandeira(numero: str) -> str:
-    numero = numero.replace(' ', '').replace('-', '')
-    tamanho = len(numero)
+def get_card_brand(card_number: str) -> str:
+    card_number = card_number.replace(' ', '').replace('-', '')
 
-    if numero.startswith('4') and tamanho in [13, 16]:
+    def starts_with(prefixes):
+        return any(card_number.startswith(str(p)) for p in prefixes)
+
+    def in_range(start, end, digits=None):
+        prefix = int(card_number[:len(str(start))])
+        return start <= prefix <= end and (digits is None or len(card_number) == digits)
+
+    length = len(card_number)
+
+    if card_number.startswith('4') and length in [13, 16]:
         return 'Visa'
-    if (51 <= int(numero[:2]) <= 55 or 2221 <= int(numero[:4]) <= 2720) and tamanho == 16:
+    if (in_range(51, 55, 16) or in_range(2221, 2720, 16)):
         return 'MasterCard'
-    if numero[:2] in ['34', '37'] and tamanho == 15:
+    if (starts_with(['34', '37']) and length == 15):
         return 'American Express'
-    if (300 <= int(numero[:3]) <= 305 or numero.startswith(('36', '38', '39'))) and tamanho == 14:
+    if ((in_range(300, 305, 14) or starts_with(['36', '38', '39'])) and length == 14):
         return 'Diners Club'
-    if (numero.startswith('6011') or numero.startswith('65') or 644 <= int(numero[:3]) <= 649) and tamanho == 16:
+    if ((card_number.startswith('6011') or card_number.startswith('65') or in_range(644, 649)) and length == 16):
         return 'Discover'
-    if numero[:4] in ['2014', '2149'] and tamanho == 15:
+    if (starts_with(['2014', '2149']) and length == 15):
         return 'enRoute'
-    if 3528 <= int(numero[:4]) <= 3589 and tamanho == 16:
+    if (in_range(3528, 3589, 16)):
         return 'JCB'
-    if numero.startswith('8699') and tamanho == 15:
+    if (card_number.startswith('8699') and length == 15):
         return 'Voyager'
-    if (numero.startswith('384100') or numero.startswith('60') or numero.startswith('637095')) and 13 <= tamanho <= 19:
+    if ((card_number.startswith('384100') or card_number.startswith('60') or card_number.startswith('637095')) and 13 <= length <= 19):
         return 'Hipercard'
-    if numero.startswith('50') and tamanho == 16:
+    if (card_number.startswith('50') and length == 16):
         return 'Aura'
     return 'Desconhecida'
 
