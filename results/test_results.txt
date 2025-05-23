@@ -1,10 +1,30 @@
-MasterCard
-Visa
-American Express
-Diners Club
-Discover
-enRoute
-JCB
-Voyager
-Hipercard
-Aura
+Teste 1: MasterCard
+Teste 2: Visa
+Teste 3: American Express
+Teste 4: Diners Club
+Teste 5: Discover
+Teste 6: enRoute
+Teste 7: JCB
+Teste 8: Voyager
+Teste 9: Hipercard
+Teste 10: Aura
+Teste 11: MasterCard
+Teste 12: Visa
+Teste 13: American Express
+Teste 14: Diners Club
+Teste 15: Discover
+Teste 16: enRoute
+Teste 17: JCB
+Teste 18: Voyager
+Teste 19: Hipercard
+Teste 20: Aura
+Teste 21: MasterCard
+Teste 22: Visa
+Teste 23: American Express
+Teste 24: Diners Club
+Teste 25: Discover
+Teste 26: enRoute
+Teste 27: JCB
+Teste 28: Voyager
+Teste 29: Hipercard
+Teste 30: Aura
