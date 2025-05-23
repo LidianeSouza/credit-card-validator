@@ -37,6 +37,8 @@ Além disso, explorei o uso do **GitHub Copilot** como assistente de codificaç�
 - **Testes automatizados**: garantem o correto funcionamento da lógica
 - **Exportação de resultados**: os resultados dos testes são registrados em `results/test_results.txt` para rastreabilidade
 - **Organização clara**: código, testes, resultados e documentação separados em pastas específicas
+  
+> 🔍 A lógica de identificação se baseia em uma tabela de referência com prefixos (BIN/IIN) e quantidade de dígitos por bandeira, disponível na imagem [base.png](notes/base.png) na pasta `notes`.
 
 ---
 
