@@ -80,8 +80,8 @@ card-flag-detector/
   - test_results.txt # Arquivo de saída com resultados dos testes
       
 - notes/ # Documentações adicionais
-  - base.png
-  - notas_importantes.md# Observações e anotações relevantes
+  - base.png # Tabela com prefixos (BIN/IIN) e quantidade de dígitos por bandeira
+  - notas_importantes.md # Observações e anotações relevantes
 
 - images/ # Capturas de tela da execução do código e testes
     
