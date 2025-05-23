@@ -55,6 +55,18 @@ Essa experiência demonstrou como a inteligência artificial pode ser uma aliada
 
 ---
 
+## 🖼️ Imagens
+
+Na pasta `images` você encontrará capturas de tela relacionadas à execução do projeto:
+
+- **Execução do código**: mostra o processo de execução do código principal.
+- **Execução dos testes**: exibe a execução dos testes automatizados.
+- **Resultado dos testes**: apresenta a saída e os resultados obtidos após a execução dos testes.
+
+Essas imagens ajudam a visualizar o funcionamento do código e a validação dos testes.
+
+---
+
 ## 📁 Estrutura do Projeto
 
 card-flag-detector/
@@ -70,6 +82,8 @@ card-flag-detector/
 - notes/ # Documentações adicionais
   - base.png
   - notas_importantes.md# Observações e anotações relevantes
+
+- images/ # Capturas de tela da execução do código e testes
     
 - README.md # Documentação principal do projeto
 
