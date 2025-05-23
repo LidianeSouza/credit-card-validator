@@ -12,4 +12,4 @@
 
 ## 🧪 Testes
 
-- Os resultados dos testes foram exportados para o arquivo `data/test_results.txt` para facilitar análise e rastreabilidade.
+- Os resultados dos testes foram exportados para o arquivo `results/test_results.txt` para facilitar análise e rastreabilidade.
