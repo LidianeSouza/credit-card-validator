@@ -42,13 +42,16 @@ Além disso, explorei o uso do **GitHub Copilot** como assistente de codificaç�
 
 ## 🤖 Uso do GitHub Copilot
 
-Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
+Durante o desenvolvimento deste projeto, o **GitHub Copilot** foi utilizado como assistente de codificação para:
 
-- Sugerir a estrutura inicial da função de identificação
-- Gerar rapidamente os primeiros casos de teste
-- Criar trechos de código para exportar os resultados de testes
+- Criar a estrutura da função `get_card_brand`, responsável por identificar a bandeira do cartão;
+- Sugerir e gerar rapidamente os primeiros casos de teste;
+- Otimizar trechos de código, melhorando a legibilidade e organização;
+- Criar a lógica dos testes automatizados com base nos cenários definidos;
+- Acelerar o desenvolvimento, permitindo validar ideias de forma ágil e prática;
+- Auxiliar na criação do código para exportar os resultados dos testes para o arquivo `.txt`.
 
-Essa experiência mostrou como a IA pode ser uma excelente aliada no aprendizado, sem substituir o raciocínio lógico e a prática ativa.
+Essa experiência demonstrou como a inteligência artificial pode ser uma aliada poderosa no processo de aprendizagem e desenvolvimento, sem substituir o raciocínio humano — apenas potencializando a produtividade e ajudando na escrita de um código mais limpo e eficiente.
 
 ---
 
