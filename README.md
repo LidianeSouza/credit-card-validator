@@ -59,9 +59,9 @@ Essa experiência demonstrou como a inteligência artificial pode ser uma aliada
 
 Na pasta `images` você encontrará capturas de tela relacionadas à execução do projeto:
 
-- **Execução do código**: mostra o processo de execução do código principal.
-- **Execução dos testes**: exibe a execução dos testes automatizados.
-- **Resultado dos testes**: apresenta a saída e os resultados obtidos após a execução dos testes.
+- [📷 Execução do código](images/execucao_codigo.png): mostra o processo de execução do código principal.
+- [🧪 Execução dos testes](images/execucao_testes.png): exibe a execução dos testes automatizados.
+- [📄 Resultado dos testes](images/resultado_testes.png): apresenta a saída e os resultados obtidos após a execução dos testes.
 
 Essas imagens ajudam a visualizar o funcionamento do código e a validação dos testes.
 
