@@ -35,7 +35,7 @@ Além disso, explorei o uso do **GitHub Copilot** como assistente de codificaç�
 - **Validação básica**: verifica se o número inserido segue um padrão válido
 - **Função reutilizável**: `identificar_bandeira` pode ser aplicada em outros projetos
 - **Testes automatizados**: garantem o correto funcionamento da lógica
-- **Exportação de resultados**: os testes são registrados em `data/test_results.txt` para rastreabilidade
+- **Exportação de resultados**: os resultados dos testes são registrados em `results/test_results.txt` para rastreabilidade
 - **Organização clara**: código, testes, resultados e documentação separados em pastas específicas
 
 ---
