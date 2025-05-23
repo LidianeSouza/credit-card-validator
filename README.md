@@ -19,30 +19,35 @@ Além disso, o uso do **GitHub Copilot**, como assistente de codificação, pode
 
 ## 🚀 Tecnologias Utilizadas
 
-- Python 3.13.3  
+- Python 3.13 
 - Visual Studio Code  
-- GitHub Copilot  
-
+- GitHub Copilot (IA para desenvolvimento)
+- Testes automatizados
+- Estrutura de diretórios clara
+- Muita vontade de aprender 😄
+  
 ---
 
 ## 🎯 Funcionalidades
 
-- Entrada: número do cartão (como string, com ou sem espaços)
-- Saída: nome da bandeira (Visa, MasterCard, etc.)
-- Validação básica do número informado
-- Função principal reutilizável (`identificar_bandeira`)
-- Registro de resultados em arquivo (`test_results.txt`)
-- Testes simples de verificação
+- **Entrada flexível**: aceita números de cartão como string, com ou sem espaços
+- **Identificação automática da bandeira**: Visa, MasterCard, e outras com base nos primeiros dígitos
+- **Validação básica**: verifica se o número inserido tem formato válido
+- **Função reutilizável**: `identificar_bandeira` pode ser usada em outros contextos
+- **Testes automatizados**: garantem o correto funcionamento do sistema
+- **Exportação de resultados**: os testes são registrados em `results/test_results.txt` para rastreabilidade
+- **Organização por pastas**: código, testes e resultados separados para facilitar a manutenção
 
 ---
 
 ## 🤖 Uso do GitHub Copilot
 
 Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
-- Sugerir condições `if` com base nos prefixos
-- Gerar funções auxiliares para análise de prefixos e dígitos
+- Sugerir a estrutura inicial da função de identificação
 - Criar estrutura inicial de testes
 - Criar código para exportar os resultados para arquivo
+
+Essa experiência me mostrou como a IA pode ser uma excelente parceira para quem está aprendendo, sem deixar de lado o raciocínio lógico e o aprendizado ativo.
 
 ---
 
