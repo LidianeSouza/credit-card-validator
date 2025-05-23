@@ -1,53 +1,54 @@
 # 🔐 Identificador de Bandeiras de Cartões de Crédito 💳
 
-Olá! 👋
-Seja bem-vindo(a) ao meu projeto de detecção de bandeiras de cartões de crédito! 
+Olá! 👋  
+Seja bem-vindo(a) ao meu projeto de detecção de bandeiras de cartões de crédito!
 
-Esse é um projeto simples, com o objetivo de desenvolver uma aplicação em **Python** capaz de identificar a bandeira de um cartão de crédito com base em seu número.
+Este é um projeto simples, desenvolvido com o objetivo de criar uma aplicação em **Python** capaz de identificar a bandeira de um cartão de crédito com base em seu número.
 
-Além disso, o uso do **GitHub Copilot**, como assistente de codificação, pode acelerar o desenvolvimento, sugerir trechos de código e melhorar a produtividade.
+Além disso, explorei o uso do **GitHub Copilot** como assistente de codificação — uma ferramenta que pode acelerar o desenvolvimento, sugerir trechos de código e aumentar a produtividade.
 
 ---
 
 ## 🧠 O que você vai encontrar aqui
 
-- Um script que identifica a bandeira de um cartão a partir dos primeiros dígitos do número
-- Um conjunto de testes para garantir que tudo esteja funcionando corretamente
+- Um script que identifica a bandeira de um cartão a partir dos primeiros dígitos
+- Um conjunto de testes automatizados para validar a aplicação
 - Um código simples, limpo e fácil de entender
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- Python 3.13 
+- Python 3.13  
 - Visual Studio Code  
-- GitHub Copilot (IA para desenvolvimento)
-- Testes automatizados
-- Estrutura de diretórios clara
+- GitHub Copilot (IA para desenvolvimento)  
+- Testes automatizados  
+- Estrutura de diretórios clara  
 - Muita vontade de aprender 😄
-  
+
 ---
 
 ## 🎯 Funcionalidades
 
 - **Entrada flexível**: aceita números de cartão como string, com ou sem espaços
-- **Identificação automática da bandeira**: Visa, MasterCard, e outras com base nos primeiros dígitos
-- **Validação básica**: verifica se o número inserido tem formato válido
-- **Função reutilizável**: `identificar_bandeira` pode ser usada em outros contextos
-- **Testes automatizados**: garantem o correto funcionamento do sistema
-- **Exportação de resultados**: os testes são registrados em `results/test_results.txt` para rastreabilidade
-- **Organização por pastas**: código, testes e resultados separados para facilitar a manutenção
+- **Identificação automática da bandeira**: Visa, MasterCard e outras, com base nos prefixos
+- **Validação básica**: verifica se o número inserido segue um padrão válido
+- **Função reutilizável**: `identificar_bandeira` pode ser aplicada em outros projetos
+- **Testes automatizados**: garantem o correto funcionamento da lógica
+- **Exportação de resultados**: os testes são registrados em `data/test_results.txt` para rastreabilidade
+- **Organização clara**: código, testes, resultados e documentação separados em pastas específicas
 
 ---
 
 ## 🤖 Uso do GitHub Copilot
 
 Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
-- Sugerir a estrutura inicial da função de identificação
-- Criar estrutura inicial de testes
-- Criar código para exportar os resultados para arquivo
 
-Essa experiência me mostrou como a IA pode ser uma excelente parceira para quem está aprendendo, sem deixar de lado o raciocínio lógico e o aprendizado ativo.
+- Sugerir a estrutura inicial da função de identificação
+- Gerar rapidamente os primeiros casos de teste
+- Criar trechos de código para exportar os resultados de testes
+
+Essa experiência mostrou como a IA pode ser uma excelente aliada no aprendizado, sem substituir o raciocínio lógico e a prática ativa.
 
 ---
 
