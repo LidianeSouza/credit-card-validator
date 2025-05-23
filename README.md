@@ -23,6 +23,18 @@ Além disso, exploramos como o **GitHub Copilot**, como assistente de codificaç
 - Registro de resultados em arquivo (`test_results.txt`)
 - Testes simples de verificação
 
+---
+
+## 🤖 Uso do GitHub Copilot
+
+Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
+- Sugerir condições `if` com base nos prefixos
+- Gerar funções auxiliares para análise de prefixos e dígitos
+- Criar estrutura inicial de testes
+- Criar código para exportar os resultados para arquivo
+
+---
+
 ## 📁 Estrutura do Projeto
 
 card-flag-detector/
@@ -35,15 +47,5 @@ card-flag-detector/
 - docs/ # Documentações adicionais
   - notas_importantes.md# Observações e anotações relevantes
 - README.md # Documentação principal do projeto
-
----
-
-## 🤖 Uso do GitHub Copilot
-
-Durante o desenvolvimento, o GitHub Copilot foi utilizado para:
-- Sugerir condições `if` com base nos prefixos
-- Gerar funções auxiliares para análise de prefixos e dígitos
-- Criar estrutura inicial de testes
-- Criar código para exportar os resultados para arquivo
 
 ---
