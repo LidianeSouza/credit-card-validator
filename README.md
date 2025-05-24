@@ -85,8 +85,10 @@ card-flag-detector/
 │   ├── base.png             # Imagem com prefixos (BIN/IIN) e número de dígitos por bandeira
 │   └── notas_importantes.md # Observações e anotações técnicas
 │
-├── images/                  # Capturas de tela da execução
-│   └── screenshot1.png      # (Exemplo de imagem ilustrativa)
+├── images/                  # Capturas de tela ilustrando:
+│   ├── execucao_codigo.png      # Execução do código principal
+│   ├── execucao_testes.png      # Execução dos testes automatizados
+│   └── resultado_testes.png     # Saída e resultados dos testes
 │
 ├── README.md                # Documentação principal do projeto
 
