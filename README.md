@@ -72,21 +72,22 @@ Essas imagens ajudam a visualizar o funcionamento do código e a validação dos
 ## 📁 Estrutura do Projeto
 
 card-flag-detector/
-- src/ # Código-fonte da aplicação
-  - main.py # Função principal que identifica a bandeira
-    
-- tests/ # Testes automatizados
-  - test_main.py # Casos de teste
-    
-- results/ # Resultados de execução
-  - test_results.txt # Arquivo de saída com resultados dos testes
-      
-- notes/ # Documentações adicionais
-  - base.png # Tabela com prefixos (BIN/IIN) e quantidade de dígitos por bandeira
-  - notas_importantes.md # Observações e anotações relevantes
-
-- images/ # Capturas de tela da execução do código e testes
-    
-- README.md # Documentação principal do projeto
+├── src/                     # Código-fonte da aplicação
+│   └── main.py              # Função principal que identifica a bandeira do cartão
+│
+├── tests/                   # Testes automatizados
+│   └── test_main.py         # Casos de teste para validação da lógica
+│
+├── results/                 # Resultados de execução dos testes ou da aplicação
+│   └── test_results.txt     # Registro de saídas dos testes
+│
+├── notes/                   # Documentação complementar e material de apoio
+│   ├── base.png             # Imagem com prefixos (BIN/IIN) e número de dígitos por bandeira
+│   └── notas_importantes.md # Observações e anotações técnicas
+│
+├── images/                  # Capturas de tela da execução
+│   └── screenshot1.png      # (Exemplo de imagem ilustrativa)
+│
+├── README.md                # Documentação principal do projeto
 
 ---
