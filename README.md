@@ -71,6 +71,7 @@ Essas imagens ajudam a visualizar o funcionamento do código e a validação dos
 
 ## 📁 Estrutura do Projeto
 
+```bash
 card-flag-detector/
 ├── src/                     # Código-fonte da aplicação
 │   └── main.py              # Função principal que identifica a bandeira do cartão
@@ -91,5 +92,5 @@ card-flag-detector/
 │   └── resultado_testes.png     # Saída e resultados dos testes
 │
 ├── README.md                # Documentação principal do projeto
-
+```
 ---
